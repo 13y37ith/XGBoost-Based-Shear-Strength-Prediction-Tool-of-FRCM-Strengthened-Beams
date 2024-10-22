@@ -103,6 +103,8 @@ python shear_capacity_prediction.py
 ### Output
 
 - After clicking the **Calculate** button, the predicted shear strength will be displayed in kilonewtons (kN) with two decimal places.
+<img width="795" alt="4100d526bb597ed448825149cd54767" src="https://github.com/user-attachments/assets/43f4fcde-03be-4283-9166-9ac596a5f27d">
+
 
 ## Dependencies
 
