@@ -21,59 +21,11 @@ This tool predicts the shear strength of Fiber Reinforced Cementitious Matrix (F
 - **Customizable Inputs**: Supports a wide range of input parameters for different beam configurations.
 - **Cross-Platform**: Compatible with Windows, macOS, and Linux systems.
 
-## Installation
+## Installation & Usage
 
-### Prerequisites
-
-- **Python 3.x**
-- **pip** (Python package installer)
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/frcm-shear-strength-predictor.git
-cd frcm-shear-strength-predictor
-```
-
-### Create a Virtual Environment (Recommended)
-
-```bash
-python -m venv venv
-```
-
-Activate the virtual environment:
-
-- **Windows:**
-
-  ```bash
-  venv\Scripts\activate
-  ```
-
-- **macOS/Linux:**
-
-  ```bash
-  source venv/bin/activate
-  ```
-
-### Install Dependencies
-
-Install the required Python packages:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Usage
-
-### Running the Application
-
-Ensure that the model files `XG5.dat` and `std.pkl` are located in the same directory as the main script.
-
-Run the application:
-
-```bash
-python shear_capacity_prediction.py
-```
+1. Go to the [v1.1.3 release page](https://github.com/13y37ith/XGBoost-Based-Shear-Strength-Prediction-Tool-of-FRCM-Strengthened-Beams/releases/tag/v1.1.3) and download **dist.7z**.  
+2. Extract `dist.7z` so that the three files (`main.exe`, `XG5.dat`, `std.pkl`) all reside in the same folder.  
+3. Double-click **main.exe** to launch the application.
 
 ### Input Parameters
 
